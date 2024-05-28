@@ -1,0 +1,27 @@
+<div class="container">
+<form  (submit)="submitdata()">
+  <h1><font color="blue">ADD RESULT HERE</font></h1>
+  <div class="form-group">
+    <label for="id">Roll no.:</label>
+    <input type="text" class="form-control" name="id" id="id" [(ngModel)]="ar.id">
+  </div>
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" name="nme" id="name" [(ngModel)]="ar.name">
+  </div>
+  <div class="form-group">
+    <label for="java">Java Programming Marks:</label>
+    <input type="text" class="form-control" name="java" id="java" [(ngModel)]="ar.java">
+  </div>
+  <div class="form-group">
+    <label for="web">Java Programming Marks:</label>
+    <input type="text" class="form-control" name="web" id="web" [(ngModel)]="ar.web">
+  </div>
+  <div class="form-group">
+    <label for="r">R Programming Marks:</label>
+    <input type="text" class="form-control" name="r" id="r" [(ngModel)]="ar.r">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="reset" class="btn btn-default">Reset</button>
+</form>
+</div>
